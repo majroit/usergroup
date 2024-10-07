@@ -36,6 +36,7 @@ The following are the key API endpoints available in this project:
 - **POST /api/users/**: Create a new user.
 - **GET /api/users/{id}/**: Retrieve a specific user by ID.
 - **PUT /api/users/{id}/**: Update a user.
+- **PATCH /api/users/{id}/**: Partial update a user.
 - **DELETE /api/users/{id}/**: Delete a user.
 
 ### Groups
@@ -43,6 +44,7 @@ The following are the key API endpoints available in this project:
 - **POST /api/groups/**: Create a new group.
 - **GET /api/groups/{id}/**: Retrieve a specific group by ID.
 - **PUT /api/groups/{id}/**: Update a group.
+- **PATCH /api/groups/{id}/**: Partial update a group.
 - **DELETE /api/groups/{id}/**: Delete a group.
 
 ### User-Group Management
@@ -54,4 +56,6 @@ Swagger API documentation is available for easy reference. Visit the following U
 
 http://localhost:8000/swagger/
 
+### Postman collection
+Postman collection including all endpoints with sample input is available for import.  
 
