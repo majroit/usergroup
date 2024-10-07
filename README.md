@@ -24,7 +24,7 @@ git clone <https://github.com/majroit/usergroup>
 - docker-compose up --build
 - http://localhost:8000/api
 
-you can migrate for default data:
+If there is no data, you can migrate using the default data:
 - docker-compose exec web python manage.py migrate
 
 ## API Endpoints
