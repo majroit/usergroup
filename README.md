@@ -15,19 +15,18 @@ Ensure you have the following installed:
 ## Project Setup
 
 ### 1. Clone the Repository
-```bash
+
 git clone <https://github.com/majroit/usergroup>
 cd <usergroup>
 
-```bash
 docker-compose up --build
 
 run project: 
-```bash
+
 http://localhost:8000/api
 
 you can migrate for default data:
-```bash
+
 docker-compose exec web python manage.py migrate
 
 ## API Endpoints
@@ -54,7 +53,7 @@ The following are the key API endpoints available in this project:
 
 ### Swagger API Documentation
 Swagger API documentation is available for easy reference. Visit the following URL to explore the API via the Swagger UI:
-```bash
+
 http://localhost:8000/swagger/
 
 
