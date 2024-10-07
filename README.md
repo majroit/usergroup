@@ -18,17 +18,14 @@ Ensure you have the following installed:
 
 git clone <https://github.com/majroit/usergroup>
 <br>
-cd usergroup
 
-docker-compose up --build
-
-run project: 
-
-http://localhost:8000/api
+### 1. Run project with Docker
+- cd usergroup
+- docker-compose up --build
+- http://localhost:8000/api
 
 you can migrate for default data:
-
-docker-compose exec web python manage.py migrate
+- docker-compose exec web python manage.py migrate
 
 ## API Endpoints
 
