@@ -18,7 +18,7 @@ Ensure you have the following installed:
 
 git clone <https://github.com/majroit/usergroup>
 <br>
-cd <usergroup>
+cd usergroup
 
 docker-compose up --build
 
