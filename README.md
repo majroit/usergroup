@@ -3,8 +3,8 @@
 This project provides a REST API with Python and Django to manage users and user groups, allowing clients to perform CRUD operations on users and groups, and associate users with groups.
 
 ## Features
-- **User Management**: Create, update, delete and select users.
-- **Group Management**: Create, update, delete and select groups.
+- **User Management**: Create, read, update, delete users.
+- **Group Management**: Create, read, update, delete groups.
 - **Association**: Add or remove users from groups.
 
 ## Prerequisites
