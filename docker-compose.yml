@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    command: gunicorn user_management.wsgi:application --bind 0.0.0.0:8000 --timeout 120 --workers 3 --worker-connections 1000 --log-level debug --access-logfile -
+    volumes:
+      - .:/app
+      - static_volume:/app/staticfiles
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=your_secret_key_here
+      - DJANGO_SETTINGS_MODULE=user_management.settings
+
+volumes:
+  static_volume:

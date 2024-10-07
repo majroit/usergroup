@@ -1,0 +1,11 @@
+# requirements.txt
+
+Django>=3.2,<4
+djangorestframework
+djangorestframework-simplejwt
+django-ratelimit
+gunicorn
+psycopg2-binary
+drf-yasg
+setuptools  
+whitenoise
